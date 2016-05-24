@@ -25,7 +25,7 @@ fi
 
 echo $DOCKER_BUILD_OPTIONS
 
-image="${REPO}/bpa-ckan"
+image="${REPO}/bpa-datapusher"
 echo "################################################################### ${image}"
 ## warm up cache for CI
 docker pull ${image} || true
